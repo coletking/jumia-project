@@ -85,6 +85,19 @@ body{
      
  }
 
+ .reduceSize:hover {
+     color: #f68b1e;
+ }
+ .icon-section-nav2:hover p{
+    color: #f68b1e;
+}
+.icon-section-nav2:hover img{
+    color: #f68b1e;
+    
+}
+
+
+
  .icon-section-nav input{
      width: 500px;
      padding: 13px;
