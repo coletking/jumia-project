@@ -59,7 +59,7 @@ body{
  .search-section{
      background-color: white;
      width: 100%;
-     height: 50px;
+    
  }
 
  .search-body{
@@ -135,3 +135,62 @@ body{
      padding: 0 10px 0 10px;
  }
 
+ /* end of search section */
+
+.banner-section{
+    width: 80%;
+    margin: auto auto;
+    
+}
+.banner-body{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    gap: 20px;
+    padding: 15px 0 15px 0;
+}
+
+.main-body{
+    background-image: url(../image/BW-brand-day.jpg);
+    background-position: right 7%;
+    background-size: 115%; 
+    width: 100%;
+    height: auto;
+}
+
+.body-nav{
+    background-color: white;
+    line-height: 44px;
+    font-size: 14px;
+    padding: 10px;
+    
+}
+
+
+
+.body-nav li{
+    height: 10px;
+    list-style-type: none;
+    
+    
+}
+.body-nav a{
+    height: 10px;
+    text-decoration: none;
+}
+
+span:hover {
+    color: #f68b1e;
+    cursor: pointer;
+}
+
+span{
+    font-weight: 400px;
+}
+.body-nav img{
+    height: 20px;
+}
+
+.bannerAdd-section img{
+    padding: 0 0 15px 0;
+    height: 220px;
+}

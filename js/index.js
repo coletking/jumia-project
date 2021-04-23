@@ -6,15 +6,15 @@ $(document).ready(function(){
 
 $("#theTarget").skippr({
 
-    transition: 'slide',
+    transition: 'fade',
     speed: 1000,
     easing: 'easeOutQuart',
-    navType: 'block',
+    navType: 'bubble',
     childrenElementType: 'div',
     arrows: true,
-    autoPlay: false,
-    autoPlayDuration: 5000,
+    autoPlay: true,
+    autoPlayDuration: 2000,
     keyboardOnAlways: true,
-    hidePrevious: false
+    hidePrevious: true
 
 });
