@@ -47,7 +47,6 @@ body{
      display: flex;
      margin-left: 300px;
      padding-top: 7px;
-
  }
 
  .content-topbar-nav img{
@@ -56,3 +55,70 @@ body{
  }
 
  /* top-bar css end here. any modicication on top-bar please include it above please */
+
+ .search-section{
+     background-color: white;
+     width: 100%;
+     height: 50px;
+ }
+
+ .search-body{
+     display: flex;
+     width: 85%;
+     height: 60px;
+     margin: auto auto;
+     padding-top: 30px;
+     justify-content: center;
+     align-items: center;
+     font-weight: 500;
+     
+ }
+
+ .search-body img{
+     height: 20px;
+ }
+
+ .reduceSize img{
+     height: 8px;
+     transform: rotate(90deg);
+     width: 10px;
+     
+ }
+
+ .icon-section-nav input{
+     width: 500px;
+     padding: 13px;
+     border: 1px solid rgb(224, 222, 222);
+     background-image: url(../image/search-interface-symbol.png);
+     background-size: 5%;
+     background-repeat: no-repeat;
+     background-position: 20px;
+ }
+
+ .icon-section-nav1 img{
+    padding-right: 60px;
+    height: 40px;
+ }
+
+ .icon-section-nav button{
+     padding: 10px;
+     width: 90px;
+     margin-left: 5px;
+     text-transform: capitalize;
+     font-weight: 400;
+     font-size: 18px;
+     border: 1px solid #7a4005;
+     background-color: #f68b1e;
+     color: white;
+ }
+
+ .icon-section-nav2{
+    padding: 0 10px 0 20px;
+    display: flex;
+    align-items: center;
+ }
+
+ .icon-section-nav2 p{
+     padding: 0 10px 0 10px;
+ }
+
