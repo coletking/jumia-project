@@ -116,3 +116,36 @@
                         visibility: visible;
                         opacity: 1;
                     }
+                    
+                    .wholesome:hover .sec1-img1 {
+                        box-shadow: rgb(0, 0, 0, 0.5);
+                    }
+                    
+                    .wholesome-section2 {
+                        background-color: #fff;
+                        margin-left: 100px;
+                        margin-top: 10px;
+                        width: 87%;
+                    }
+                    
+                    .wholesome-image2 {
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: repeat(6, 1fr);
+                        gap: 10px;
+                        /* margin-top: 10px; */
+                        padding: 10px;
+                    }
+                    
+                    .wholesome-image2 .sec2-img2 {
+                        cursor: pointer;
+                    }
+                    
+                    .sec2-img2 img {
+                        /* width: 180px; */
+                        /* height: 200px; */
+                    }
+                    
+                    .sec2-img2 p {
+                        text-align: center;
+                    }
