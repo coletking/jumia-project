@@ -1,31 +1,118 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
-    ;
-}
-
-body {
-    background-color: rgb(245, 245, 245);
-}
-
-.first-a {
-    margin-top: 20px;
-    padding-left: 100px;
-}
-
-.first-a a {
-    text-decoration: none;
-    color: #333;
-    font-size: 13px;
-}
-
-.first-img {
-    margin-top: 20px;
-    padding-left: 100px;
-}
-
-.first-img img {
-    border: 10px solid white;
-}
+                    * {
+                        padding: 0;
+                        margin: 0;
+                        box-sizing: border-box;
+                        font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+                        ;
+                    }
+                    
+                    body {
+                        background-color: rgb(245, 245, 245);
+                    }
+                    
+                    .first-a {
+                        margin-top: 20px;
+                        padding-left: 100px;
+                    }
+                    
+                    .first-a a {
+                        text-decoration: none;
+                        color: #333;
+                        font-size: 13px;
+                    }
+                    
+                    .first-img {
+                        margin-top: 20px;
+                        padding-left: 100px;
+                    }
+                    
+                    .first-img img {
+                        border: 10px solid #fff;
+                    }
+                    
+                    .wholesome {
+                        background-color: #fff;
+                        margin-left: 100px;
+                        margin-top: 10px;
+                        width: 87%;
+                    }
+                    
+                    .entertainment {
+                        display: flex;
+                        justify-content: space-between;
+                        /* margin-top: 20px; */
+                        padding: 10px;
+                    }
+                    
+                    .entertainment a {
+                        text-decoration: none;
+                        color: rgb(255, 115, 0);
+                        margin-top: 10px;
+                    }
+                    
+                    .entertainment h1 {
+                        font-size: 25px;
+                        color: #222;
+                        margin-top: 10px;
+                    }
+                    
+                    .wholesome-images {
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: repeat(6, 1fr);
+                        gap: 10px;
+                        padding: 10px;
+                    }
+                    
+                    .sec1-img1 {
+                        cursor: pointer;
+                        /* width: 15%; */
+                        /* width: 100%; */
+                    }
+                    
+                    .sec1-img1 img {
+                        width: 180px;
+                        height: 200px;
+                    }
+                    
+                    .sec1-img1 span p {
+                        background-color: rgb(204, 157, 157);
+                        margin-left: 130px;
+                        /* border: 10px solid rgb(255, 166, 0); */
+                        color: rgb(185, 33, 33);
+                        border-radius: 4px;
+                        width: 50px;
+                        /* padding-right: 0px; */
+                        padding: 10px;
+                        text-align: center;
+                        justify-items: center;
+                    }
+                    
+                    .sec1-img1 p {
+                        font-size: 14px;
+                        font-weight: 600;
+                    }
+                    
+                    #img3,
+                    #img4 {
+                        margin-top: 40px;
+                    }
+                    
+                    .sec1-img1 button {
+                        background-color: rgb(255, 115, 0);
+                        color: white;
+                        padding: 10px;
+                        border: 1px solid rgb(255, 115, 0);
+                        width: 150px;
+                        font-weight: 600;
+                        margin-top: 30px;
+                        visibility: hidden;
+                        opacity: 0;
+                        cursor: pointer;
+                        transition: ease .5s;
+                    }
+                    
+                    .sec1-img1:hover button {
+                        visibility: visible;
+                        opacity: 1;
+                    }
