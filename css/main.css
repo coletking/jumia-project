@@ -414,3 +414,15 @@ padding  */
     margin: auto auto;
     padding: 5px;
 }
+
+.advert-body1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+.advert-body1:hover img{
+    transform: scale(1.01);
+    cursor: pointer; 
+}
+
