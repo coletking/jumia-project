@@ -271,21 +271,32 @@ span{
     background-color: white;
     margin-top: 20px;
 }
+/* this css is use accross other selling item layer.. this is like my resueable csss to makee work easier the diffrent is this i remove the 
+padding  */
+.parent-other{
+    width: 90%;
+    margin: auto auto;
+    background-color: white;
+    
+}
 .body-view{
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     background-color: white;
     gap: 4px;
     font-weight: 400;
 }
 
 .body-view img{
-    height: 265px;
+    height: 240px;
+    width: 100%;
+
 }
 
 .seller-View1 :hover img{
     transform: scale(1.01);
     cursor: pointer;
+    
     box-shadow: 2px 2px 2px 2px rgb(163, 159, 159);
 }
 .body-flex{
@@ -311,4 +322,33 @@ span{
     color: rgb(167, 165, 165);
 
 }
+/* end of top-selling item layer */
 
+.deal-of-today{
+    width: 90px;
+    margin: auto auto;
+    width: 90%;
+    margin: auto auto;
+    background-color: red;
+    margin-top: 20px;
+
+}
+
+.deals-today-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.deals-today-body h1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 20px;
+    text-transform: capitalize;
+}
