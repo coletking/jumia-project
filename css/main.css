@@ -194,3 +194,7 @@ span{
     padding: 0 0 15px 0;
     height: 220px;
 }
+
+.hide{
+    display: none;
+}
