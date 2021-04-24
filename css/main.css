@@ -138,7 +138,7 @@ body{
  /* end of search section */
 
 .banner-section{
-    width: 80%;
+    width: 90%;
     margin: auto auto;
     
 }
@@ -278,6 +278,7 @@ padding  */
     margin: auto auto;
     background-color: white;
     
+    
 }
 .body-view{
     display: grid;
@@ -326,8 +327,46 @@ padding  */
     font-weight: 200px;
     padding-left: 20px;
     color: rgb(167, 165, 165);
+    
 
 }
+
+.view-details2 p{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200px;
+    padding-left: 20px;
+    color: rgb(167, 165, 165);
+    
+
+}
+.view-details2 s{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200px;
+    padding-left: 20px;
+    color: rgb(167, 165, 165);
+    
+
+}
+
+.view-details2 h1{
+    color: #ffa500;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200px;
+    padding-left: 20px;
+}
+
+.view-details2 p{
+    color: #ffa500;
+    font-size: 16px;
+    text-align: left;
+    font-weight: 200px;
+    padding-left: 20px;
+}
+
+
 /* end of top-selling item layer */
 
 .deal-of-today{
@@ -336,6 +375,16 @@ padding  */
     width: 90%;
     margin: auto auto;
     background-color: red;
+    margin-top: 20px;
+
+}
+
+.deal-of-today1{
+    width: 90px;
+    margin: auto auto;
+    width: 90%;
+    margin: auto auto;
+    background-color: #ffa500;
     margin-top: 20px;
 
 }
@@ -359,4 +408,8 @@ padding  */
     text-transform: capitalize;
 }
 
-
+.advert-section img{
+    width: 99%;
+    margin: auto auto;
+    padding: 5px;
+}
