@@ -293,6 +293,12 @@ padding  */
 
 }
 
+.imaesmall img{
+    height: 120px;
+   
+
+}
+
 .seller-View1 :hover img{
     transform: scale(1.01);
     cursor: pointer;
