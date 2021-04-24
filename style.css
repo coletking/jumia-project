@@ -30,33 +30,38 @@
                         border: 10px solid #fff;
                     }
                     
-                    .wholesome {
+                    .wholesome,
+                    .thirty {
                         background-color: #fff;
                         margin-left: 100px;
                         margin-top: 10px;
                         width: 87%;
                     }
                     
-                    .entertainment {
+                    .entertainment,
+                    .thirty-cells {
                         display: flex;
                         justify-content: space-between;
                         /* margin-top: 20px; */
                         padding: 10px;
                     }
                     
-                    .entertainment a {
+                    .entertainment a,
+                    .thirty-cells a {
                         text-decoration: none;
                         color: rgb(255, 115, 0);
                         margin-top: 10px;
                     }
                     
-                    .entertainment h1 {
+                    .entertainment h1,
+                    .thirty-cells h1 {
                         font-size: 25px;
                         color: #222;
                         margin-top: 10px;
                     }
                     
-                    .wholesome-images {
+                    .wholesome-images,
+                    .cells-images {
                         width: 100%;
                         display: grid;
                         grid-template-columns: repeat(6, 1fr);
@@ -64,7 +69,8 @@
                         padding: 10px;
                     }
                     
-                    .sec1-img1 {
+                    .sec1-img1,
+                    .sec3-img3 {
                         cursor: pointer;
                         /* width: 15%; */
                         /* width: 100%; */
@@ -75,7 +81,12 @@
                         height: 200px;
                     }
                     
-                    .sec1-img1 span p {
+                    .sec3-img3 img {
+                        width: 180px;
+                    }
+                    
+                    .sec1-img1 span p,
+                    .sec3-img3 span p {
                         background-color: rgb(204, 157, 157);
                         margin-left: 130px;
                         /* border: 10px solid rgb(255, 166, 0); */
@@ -88,7 +99,8 @@
                         justify-items: center;
                     }
                     
-                    .sec1-img1 p {
+                    .sec1-img1 p,
+                    .sec3-img3 p {
                         font-size: 14px;
                         font-weight: 600;
                     }
@@ -98,7 +110,8 @@
                         margin-top: 40px;
                     }
                     
-                    .sec1-img1 button {
+                    .sec1-img1 button,
+                    .sec3-img3 button {
                         background-color: rgb(255, 115, 0);
                         color: white;
                         padding: 10px;
@@ -113,6 +126,11 @@
                     }
                     
                     .sec1-img1:hover button {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                    
+                    .sec3-img3:hover button {
                         visibility: visible;
                         opacity: 1;
                     }
