@@ -199,6 +199,10 @@ span{
     display:  none;
 }
 
+.show{
+    display: block;
+}
+
 .menulist_Container{
     display: flex;
     padding: 10px;
@@ -219,6 +223,11 @@ span{
 .bannerAdd-section {
     display: grid;
     grid-template-columns: repeat(1, 2fr);
+}
+
+.menuList{
+    margin-left:-20px ;
+    border-left: 1px solid rgb(236, 233, 233);
 }
 
 
