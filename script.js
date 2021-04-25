@@ -5,14 +5,14 @@ $(document).ready(function(){
 });    
 $("#theTarget").skippr({
 
-    transition: 'slide',
-    speed: 9000,
+    transition: 'fade',
+    speed: 2000,
     easing: 'easeOutQuart',
-    navType: 'block',
+    navType: 'bubble',
     childrenElementType: 'div',
     arrows: false,
-    autoPlay: true,
-    autoPlayDuration: 6000,
+    autoPlay: false,
+    autoPlayDuration: 2000,
     keyboardOnAlways: true,
     hidePrevious: false
 
