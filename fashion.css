@@ -32,3 +32,17 @@
 /* walk section  */
 .grid-walk{display: grid; grid-template-columns: repeat(3,1fr); gap: 10px; padding-top: 10px; background-color: white; width:100%; margin-top: 20px; padding: 15px;}
 .secondback2 img{width: 100%; height: auto;}
+/* category  */
+.cate-fash{color: #422842; margin-top: 20px;}
+.category{width: 30%; background-color: white; padding: 10px;}
+.category h4{margin-bottom: 10px;}
+.category li{list-style: none; margin-left: 10px;}
+.category ul p, .category ul li{line-height: 30px; cursor: pointer;}
+.category ul p:hover, .category ul li:hover{background-color: whitesmoke;}
+.gender{padding-top: 10px; line-height: 30px; height: 200px; overflow-y: scroll;}
+.gender-line:hover{ background-color: wheat; cursor: pointer;}
+.fashion{width: 70%; background-color: white; margin-left: 20px; padding: 10px;}
+.fashion-hd select:hover{color: #f68b1e;}
+.fashion-hd select{width: 150px; border: none; outline: none; cursor: pointer; font-size: 15px;}
+.fashion-hd option{border: none; outline: none; cursor: pointer; font-size: 15px;}
+#found{color: whitesmoke;}
