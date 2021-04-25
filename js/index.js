@@ -125,6 +125,9 @@ $('.new_hover7').mouseleave(function () {
  
  $('.new_icon').mouseenter(function () {
     $('.body-nav').show();
+    $('.side-banner').hide();
+
+
     
     
     
@@ -132,6 +135,6 @@ $('.new_hover7').mouseleave(function () {
 
 $('.new_icon').mouseleave(function () { 
     $('.body-nav').hide();
-    
+    $('.side-banner').show();
     
  });
