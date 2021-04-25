@@ -2,7 +2,7 @@
 .flex{display: flex;}
 .cen{margin: 0 auto;}
 .jsb{justify-content: space-between;}
-.width{width: 1349px;}
+.width{width: 100%;}
 .main-fashion{margin-left: 100px; margin-right:100px;}
 .whole-fashion{background-color: whitesmoke;}
 /* ramadan banner  */
