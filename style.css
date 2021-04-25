@@ -1,5 +1,6 @@
 body{
     background-color: #F5F5F5;
+    padding: 10px;
 }
 
 
@@ -46,5 +47,30 @@ body{
     margin-right: 18px;
 }
 .hbimages img{
+    width: 100%;
+}
+.masks{
+    width: 95%;
+    margin-left: 35px;
+}
+.masks img{
+    width: 100%;
+}
+.skincare{
+    padding-top: 20px;
+    width: 95%;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.skincare img{
+    width: 100%;
+}
+.recommended{
+    padding-top: 20px;
+    width: 95%;
+    margin-left: 35px;
+    cursor: pointer;
+}
+.recommended img{
     width: 100%;
 }
