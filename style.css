@@ -306,3 +306,76 @@
                     width: 90px;
                     color: #fff;
                 }
+                
+                .express {
+                    color: rgba(255, 0, 0, 0.705);
+                }
+                
+                .small {
+                    font-weight: 100;
+                    color: #555;
+                }
+                
+                .jumia {
+                    font-weight: 700;
+                }
+                
+                .category-sec2 {
+                    color: #555;
+                    padding: 10px;
+                }
+                
+                .category-sec2 input {
+                    margin: 5px;
+                }
+                
+                .rating {
+                    display: flex;
+                    padding: 10px;
+                }
+                
+                .rating p {
+                    /* padding: 2px; */
+                }
+                
+                .rating input {
+                    margin: 5px;
+                }
+                
+                .checkbox-all {
+                    display: block;
+                    padding: 5px;
+                    /* margin: 10px; */
+                }
+                
+                .checkbox {
+                    display: flex;
+                    padding: 10px;
+                    /* margin: 10px; */
+                }
+                
+                .checkbox input {
+                    margin: 5px;
+                }
+                /* search*/
+                
+                .search_wrap {
+                    /* margin: 30px auto; */
+                    padding: 10px;
+                }
+                
+                .search_wrap .search_box {
+                    position: relative;
+                    height: 30px;
+                }
+                
+                .search_wrap .search_box .input {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 95%;
+                    height: 100%;
+                    padding: 10px 20px;
+                    border-radius: 20px;
+                    font-size: 18px;
+                }
