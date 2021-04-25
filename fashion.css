@@ -1,6 +1,7 @@
 *{box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
 .flex{display: flex;}
 .cen{margin: 0 auto;}
+.jsb{justify-content: space-between;}
 .width{width: 1349px;}
 .main-fashion{margin-left: 100px; margin-right:100px;}
 .whole-fashion{background-color: whitesmoke;}
@@ -9,13 +10,15 @@
 #f{color: gray;}
 .bannerfashion img{width: 100%; height: 400px; padding-top: 10px;cursor: pointer;}
 #ad{padding-left: 100px; padding-right: 100px; height: 100px;cursor: pointer;}
-/* defacto  */
+/* sales  */
 .sales{background-color: white; width:100%; margin-top: 20px; padding: 15px;}
 .grid-fashion{display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr; padding-top: 10px;}
-.fashion-item{height: 260px; cursor: pointer;}
+.fashion-item{height: 270px; cursor: pointer;}
 .secondback img{width: 185px; height: 185px;}
-#sml{color: grey; padding-left: 10px;}
-#nm{padding-bottom: 10px; padding-left: 10px; padding-right: 8px; font-size: 14px; text-transform: capitalize; margin-top: 8px;}
-#amt{padding-left: 10px;}
-#dis{background-color: #feefde; color:#f68b1e; padding: 5px; width: 40px; font-size: 12px; height: 24px; margin-left: -50px; margin-top: 10px;} 
+.sml{color: grey; padding-left: 10px;}
+.nm{padding-bottom: 10px; padding-left: 10px; padding-right: 8px; font-size: 14px; text-transform: capitalize; margin-top: 8px;}
+.amt{padding-left: 10px;}
+.dis{background-color: #feefde; color:#f68b1e; padding: 5px; width: 40px; font-size: 12px; height: 24px; margin-left: -50px; margin-top: 10px;} 
 .fashion-item:hover{transform: scale(1.01,1.01); box-shadow: 0 5px 15px rgba(0,0,0,0.15);}
+.see{color: #f68b1e;}
+.brand-name{font-size: 20px; padding-bottom: 10px;}
