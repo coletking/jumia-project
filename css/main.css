@@ -424,5 +424,31 @@ padding  */
 .advert-body1:hover img{
     transform: scale(1.01);
     cursor: pointer; 
+    font-weight: 300;
 }
 
+.info-section p{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 30px;
+    font-weight: lighter;
+    
+}
+
+.footer img{
+    width: 100%;
+}
+    
+
+
+.info-section h4{
+    background-color: white;
+    color: black;
+    padding: 15px;
+    font-size: 26px;
+    
+}
