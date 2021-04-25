@@ -122,3 +122,16 @@ $('.new_hover7').mouseleave(function () {
     
  });
 
+ 
+ $('.new_icon').mouseenter(function () {
+    $('.body-nav').show();
+    
+    
+    
+});
+
+$('.new_icon').mouseleave(function () { 
+    $('.body-nav').hide();
+    
+    
+ });
