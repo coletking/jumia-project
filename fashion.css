@@ -12,7 +12,7 @@
 #ad{padding-left: 100px; padding-right: 100px; height: 100px;cursor: pointer;}
 /* sales  */
 .sales{background-color: white; width:100%; margin-top: 20px; padding: 15px;}
-.grid-fashion{display: grid; grid-template-columns: repeat(6,1fr); padding-top: 10px;}
+.grid-fashion{display: grid; grid-template-columns: repeat(6,1fr); padding-top: 10px; gap: 10px;}
 .grid-fashion1{display: grid; grid-template-columns: repeat(6,1fr); padding-top: 10px; gap: 10px;}
 .fashion-item{height: 280px; cursor: pointer;}
 .fashion-item1{height: 220px; cursor: pointer;}
