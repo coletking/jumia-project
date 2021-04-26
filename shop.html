@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="direction">
+        Home > Grocery
+    </div>
+
+    <div class="topbanner">
+        <img src="img/topbanner.jpg" alt="">
+    </div>
+
+    <div class="wrapper">
+        <div class="slide">
+            <img src="img/slide1.jpg" alt="slideImg">
+        </div>
+        <div class="slide">
+            <img src="img/slide2.jpg" alt="slideImg">
+        </div>
+        <div class="slide">
+            <img src="img/11NG_DIAGEO_S-MLP.jpg" alt="slideImg">
+        </div>
+        <div class="slide">
+            <img src="img/slide4.jpg" alt="slideImg">
+        </div>
+
+        <!-- The dots/circles -->
+        <div class="navigator" style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+        </div>    
+    </div>
+
+    <div class="ramadan" class="category-banner">
+        <div class="supermarket" class="category-banner">
+            <h1>Ramadan Supermarket</h1>
+        </div>
+        <div class="all">
+             SEE ALL > 
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="shop-item">
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="prc">
+                        <s>N5,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>1,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods3.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Fearless energy drink
+                </div>
+                   
+                    <div class="discount">
+                        <strong><s>N</s>200</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                  <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57.00</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+        </div>
+    </div>
+    <br>
+
+    <div class="category-banner">
+        <div class="supermarket"  >
+            <h1>Shop by Category</h1>
+        </div>
+       
+    </div>
+    <div class="shop">
+        <div class="shop-item">
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="prc">
+                        <s>N5,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>1,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods3.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Fearless energy drink
+                </div>
+                   
+                    <div class="discount">
+                        <strong><s>N</s>200</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                  <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57.00</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+        </div>
+    </div>
+    <div class="shop">
+        <div class="shop-item">
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="prc">
+                        <s>N5,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>1,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods3.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Fearless energy drink
+                </div>
+                   
+                    <div class="discount">
+                        <strong><s>N</s>200</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                  <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57.00</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+        </div>
+    </div>
+
+    <div class="ramadan" class="category-banner">
+        <div class="supermarket" class="category-banner">
+            <h1>Top Picks For You</h1>
+        </div>
+        <div class="all">
+             SEE ALL > 
+        </div>
+    </div>
+    <div class="shop-section">
+        <div class="shop-item">
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods4.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Knorr Cubes
+                </div>
+                    <div class="discount">
+                      <strong><s>N</s>600</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods3.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="prc">
+                        <s>N5,000</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>1,000</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods5.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Fearless energy drink
+                </div>
+                   
+                    <div class="discount">
+                        <strong><s>N</s>200</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods2.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+            <div class="item1">
+                <div class="goods">
+                  <img src="img/goods1.jpg" alt="">
+                </div>
+                <div class="desc">
+                    STALLION Royal Stallion
+                </div>
+                    <div class="prc">
+                        <s>N57.00</s>
+                    </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+            <div class="item1">
+                <div class="goods">
+                    <img src="img/goods4.jpg" alt="">
+                </div>
+                <div class="desc">
+                    Krusteaz Cranberry Orange
+                </div>
+                    <div class="discount">
+                        <strong><s>N</s>23.00</strong>
+                    </div>
+                
+            </div>
+    
+        </div>
+    </div>
+    
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/slide.js"></script>
+</body>
+</html>
