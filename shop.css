@@ -1,25 +1,37 @@
 * {
-    box-sizing:border-box;
-    overflow-x: hidden;
-    font-family: 'Nunito Sans', sans-serif;
-    /* overflow: hidden;
-     */
+    padding: 0%;
+    margin: 0%;
+    
 }
 body{
-    margin:auto 8%;
+    
     padding: 0; background-color: rgb(248, 245, 245);
+    font: 17px;
 }
 .direction{
     font-size: smaller; padding-top: 30px;
 }
 
+.body-main-container{
+    width: 90%;
+    margin: auto auto;
+}
+
 .topbanner{
-    width: 700px; margin-left: 20%; padding-bottom: 1%;
+    width: 100%; ;
 }
 .topbanner img{
     width: 100%;
 }
 
+.main-contemt{
+    width: 90%;
+    margin: auto auto;
+}
+
+.main-parent-main{
+    width: 100%;
+}
 /* Slideshow container */
 .wrapper {
   width: 100%;
@@ -29,6 +41,14 @@ body{
   /* margin-right: 20%; */
 
 }
+
+.wrapper img{
+    width: 100%;
+   
+    
+    /* margin-right: 20%; */
+  
+  }
 
 
 /* The dots/bullets/indicators */
@@ -69,6 +89,7 @@ body{
   }
   .supermarket h1{
     font-size: larger; margin-left: 3%;
+    font-size: 18px;
   }
   .ramadan .all{
       margin-left: 60%; font-size: medium;
@@ -97,6 +118,7 @@ body{
  .category-banner{
      background-color: white;display: flex;justify-content: space-between;
      height: 60px; align-items: center; width: 100%; padding-top: 10px;
+
  }
 
  /* Hide the images by default */
